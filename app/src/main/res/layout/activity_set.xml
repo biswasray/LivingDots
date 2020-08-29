@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player setting"
+            android:textSize="30dp"
+            android:textColor="#ffff00"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/radioSingle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player vs CPU"
+            android:textSize="36dp"
+            android:textColor="#00ff00"
+            android:buttonTint="#ff00ff"
+            android:onClick="play1"
+            />
+
+        <RadioButton
+            android:id="@+id/radioDouble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Player vs Player"
+            android:textSize="36dp"
+            android:textColor="#00ff00"
+            android:buttonTint="#ff00ff"
+            android:onClick="play2"
+            />
+    </RadioGroup>
+
+</RelativeLayout>

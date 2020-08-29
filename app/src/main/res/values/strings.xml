@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Living Dots</string>
+    <string name="splash">Splash</string>
+    <string name="drawing">Sheet</string>
+    <string name="newGame">NewGame</string>
+    <string name="highScore">HighScore</string>
+    <string name="setting">Settings</string>
+    <string name="newDrawing">NewSheet</string>
+
+</resources>
